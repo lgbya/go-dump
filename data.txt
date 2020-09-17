@@ -1,0 +1,90 @@
+map[int8]map[string]map[string]dump.Demo[
+	1 : map[string]map[string]dump.Demo[
+		a : map[string]dump.Demo[
+			a : dump.Demo{
+				One : dump.One{
+					Number : 1(int)
+					List : [][3]int[
+						0 : [3]int[
+							0 : 1(int)
+							1 : 2(int)
+							2 : 3(int)
+						]
+						1 : [3]int[
+							0 : 4(int)
+							1 : 5(int)
+							2 : 6(int)
+						]
+					]
+				}
+				two : dump.Two{
+					Number : 1(int)
+				}
+			}
+			a2 : dump.Demo{
+				One : dump.One{
+					Number : 1(int)
+					List : [][3]int[
+						0 : [3]int[
+							0 : 1(int)
+							1 : 2(int)
+							2 : 3(int)
+						]
+						1 : [3]int[
+							0 : 4(int)
+							1 : 5(int)
+							2 : 6(int)
+						]
+					]
+				}
+				two : dump.Two{
+					Number : 1(int)
+				}
+			}
+		]
+	]
+	2 : map[string]map[string]dump.Demo[
+		b : map[string]dump.Demo[
+			b2 : dump.Demo{
+				One : dump.One{
+					Number : 1(int)
+					List : [][3]int[
+						0 : [3]int[
+							0 : 1(int)
+							1 : 2(int)
+							2 : 3(int)
+						]
+						1 : [3]int[
+							0 : 4(int)
+							1 : 5(int)
+							2 : 6(int)
+						]
+					]
+				}
+				two : dump.Two{
+					Number : 1(int)
+				}
+			}
+			b : dump.Demo{
+				One : dump.One{
+					Number : 1(int)
+					List : [][3]int[
+						0 : [3]int[
+							0 : 1(int)
+							1 : 2(int)
+							2 : 3(int)
+						]
+						1 : [3]int[
+							0 : 4(int)
+							1 : 5(int)
+							2 : 6(int)
+						]
+					]
+				}
+				two : dump.Two{
+					Number : 1(int)
+				}
+			}
+		]
+	]
+]
