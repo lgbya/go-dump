@@ -1,12 +1,12 @@
 # go-format
 golang语言仿php函数var_dump
 
-###Install
+### Install
  ```
     go get github.com/lgbya/go-dump
  ```
 
- ###Usage
+ ### Usage
  ```
     
     data := map[string]string{"a":"apple"}
@@ -15,4 +15,16 @@ golang语言仿php函数var_dump
 
     dump.CloseDebug() //关闭测试调试环境不会再打印
 
+ ```
+ 
+ ```
+ 
+  data := map[string]string{"a":"apple","b":"bannel",}
+  dump.Printf(data) //打印格式数据
+  
+  //打印格式
+  map[string]string[
+          a : apple(string)
+          b : bannel(string)
+  ]
  ```
