@@ -1,4 +1,6 @@
-# go-format
+# go-dump
+Golang imitates PHP function var_dump
+<br>
 golang语言仿php函数var_dump
 
 ### Install
